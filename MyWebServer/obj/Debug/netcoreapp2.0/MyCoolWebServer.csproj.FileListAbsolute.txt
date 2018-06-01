@@ -1,0 +1,11 @@
+D:\Users\Asus\Desktop\Проекти\WebServer\MyCoolWebServer\bin\Debug\netcoreapp2.0\MyCoolWebServer.deps.json
+D:\Users\Asus\Desktop\Проекти\WebServer\MyCoolWebServer\bin\Debug\netcoreapp2.0\MyCoolWebServer.runtimeconfig.json
+D:\Users\Asus\Desktop\Проекти\WebServer\MyCoolWebServer\bin\Debug\netcoreapp2.0\MyCoolWebServer.runtimeconfig.dev.json
+D:\Users\Asus\Desktop\Проекти\WebServer\MyCoolWebServer\bin\Debug\netcoreapp2.0\MyCoolWebServer.dll
+D:\Users\Asus\Desktop\Проекти\WebServer\MyCoolWebServer\bin\Debug\netcoreapp2.0\MyCoolWebServer.pdb
+D:\Users\Asus\Desktop\Проекти\WebServer\MyCoolWebServer\obj\Debug\netcoreapp2.0\MyCoolWebServer.csprojResolveAssemblyReference.cache
+D:\Users\Asus\Desktop\Проекти\WebServer\MyCoolWebServer\obj\Debug\netcoreapp2.0\MyCoolWebServer.csproj.CoreCompileInputs.cache
+D:\Users\Asus\Desktop\Проекти\WebServer\MyCoolWebServer\obj\Debug\netcoreapp2.0\MyCoolWebServer.AssemblyInfoInputs.cache
+D:\Users\Asus\Desktop\Проекти\WebServer\MyCoolWebServer\obj\Debug\netcoreapp2.0\MyCoolWebServer.AssemblyInfo.cs
+D:\Users\Asus\Desktop\Проекти\WebServer\MyCoolWebServer\obj\Debug\netcoreapp2.0\MyCoolWebServer.dll
+D:\Users\Asus\Desktop\Проекти\WebServer\MyCoolWebServer\obj\Debug\netcoreapp2.0\MyCoolWebServer.pdb
