@@ -24,6 +24,8 @@ namespace MyWebServer.ByTheCake.Infrastructure
             {
                 ["authDisplay"] = "block"
             };
+            
+            this.ViewData["showError"] = "none";
         }
         protected IDictionary<string, string> ViewData { get; private set; }
 
@@ -42,6 +44,12 @@ namespace MyWebServer.ByTheCake.Infrastructure
             }
             
             return new ViewResponse(HttpStatusCode.Ok, new FileView(result));
+        }
+
+        protected void AddError(string errorMessage)
+        {
+            this.ViewData["error"] = errorMessage;
+            this.ViewData["showError"] = "block";
         }
 
         protected string ProcessFileHtml(string fileName)

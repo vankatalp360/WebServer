@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using MyWebServer.Server.Http;
 
 namespace MyWebServer.Server.Handlers
@@ -25,12 +26,12 @@ namespace MyWebServer.Server.Handlers
         {
             try
             {
-                var loginPath = "/login";
+                var anonymousPaths = new[] {"/login", "/register"};
 
-                if (context.Request.Path != loginPath &&
+                if (!anonymousPaths.Contains(context.Request.Path) &&
                     !context.Request.Session.Contains(SessionStore.CurrentUserKey))
                 {
-                    return new RedirectResponse(loginPath);
+                    return new RedirectResponse(anonymousPaths.First());
                 }
 
                 var requestMethod = context.Request.Method;
