@@ -26,7 +26,7 @@ namespace MyWebServer.Server.Handlers
         {
             try
             {
-                var anonymousPaths = new[] {"/login", "/register"};
+                var anonymousPaths = serverRouteConfig.AnonymousPaths;
 
                 if (!anonymousPaths.Contains(context.Request.Path) &&
                     !context.Request.Session.Contains(SessionStore.CurrentUserKey))

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 using MyWebServer.ByTheCake.Data;
-using MyWebServer.ByTheCake.Infrastructure;
+using MyWebServer.Infrastructure;
 using MyWebServer.ByTheCake.Services;
 using MyWebServer.ByTheCake.Services.Contracts;
 using MyWebServer.ByTheCake.ViewModels;

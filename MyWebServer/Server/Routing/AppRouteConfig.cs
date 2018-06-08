@@ -17,6 +17,7 @@ namespace MyWebServer.Server.Routing
         public AppRouteConfig()
         {
             this.routes = new Dictionary<HttpRequestMethod, IDictionary<string, RequestHandler>>();
+            this.AnonymousPaths = new List<string>();
 
             var availableMethods = Enum
                 .GetValues(typeof(HttpRequestMethod))
@@ -29,7 +30,8 @@ namespace MyWebServer.Server.Routing
         }
 
         public IReadOnlyDictionary<HttpRequestMethod, IDictionary<string, RequestHandler>> Routes => this.routes;
-        
+        public ICollection<string> AnonymousPaths { get; set; }
+
         public void Get(string route, Func<IHttpRequest, IHttpResponse> handler)
         {
             this.AddRoute(route, HttpRequestMethod.Get, new RequestHandler(handler));

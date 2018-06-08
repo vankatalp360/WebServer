@@ -1,6 +1,6 @@
 ﻿using MyWebServer.Server.Contracts;
 
-namespace MyWebServer.ByTheCake.Views.Home
+namespace MyWebServer.Infrastructure
 {
     using Server.Contracts;
 
